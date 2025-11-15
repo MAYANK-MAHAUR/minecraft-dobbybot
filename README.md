@@ -76,8 +76,12 @@ MINECRAFT_HOST="localhost"
 MINECRAFT_PORT=25565
 BOT_USERNAME="DOBBY"
 ```
+5. Start your Minecraft server
+```
+Make sure you have a Minecraft server running on localhost:25565 or update the connection details in src/bot.ts.
+```
 
-5. Start the bot:
+7. Start the bot:
 ```bash
 pnpm ts-node src/bot.ts
 ```
