@@ -6,6 +6,12 @@
 
 An autonomous Minecraft bot with natural language understanding and command execution capabilities. Built for automated resource gathering, player interaction, and task execution in Minecraft servers.
 
+
+
+https://github.com/user-attachments/assets/5885e906-0b4c-4e9e-9546-2d466af9ef31
+
+
+
 ## Overview
 
 Minecraft Dobby Bot is an intelligent agent that operates within Minecraft environments, capable of understanding natural language queries and executing commands. The bot provides both conversational interaction through natural language processing and direct command execution for immediate control.
