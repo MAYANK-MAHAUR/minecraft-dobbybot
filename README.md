@@ -70,24 +70,16 @@ cp .env.example .env
 
 4. Edit `.env` with your configuration:
 ```env
-MINECRAFT_HOST=localhost
+# Get your API key from: https://fireworks.ai/
+FIREWORKS_API_KEY=""
+MINECRAFT_HOST="localhost"
 MINECRAFT_PORT=25565
-MINECRAFT_USERNAME=DobbyBot
-MINECRAFT_VERSION=1.16.5
-
-# LLM Configuration
-LLM_API_KEY=your_api_key_here
-LLM_MODEL=gpt-4
+BOT_USERNAME="DOBBY"
 ```
 
-5. Build the TypeScript project:
+5. Start the bot:
 ```bash
-pnpm build
-```
-
-6. Start the bot:
-```bash
-pnpm start
+pnpm ts-node src/bot.ts
 ```
 
 ## Usage
